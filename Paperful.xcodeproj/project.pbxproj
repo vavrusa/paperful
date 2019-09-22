@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC86501233715A1006AE2DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC86500233715A1006AE2DB /* AppDelegate.swift */; };
+		ACC86503233715A1006AE2DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC86502233715A1006AE2DB /* SceneDelegate.swift */; };
+		ACC86505233715A1006AE2DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC86504233715A1006AE2DB /* ContentView.swift */; };
+		ACC86507233715A4006AE2DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC86506233715A4006AE2DB /* Assets.xcassets */; };
+		ACC8650A233715A4006AE2DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC86509233715A4006AE2DB /* Preview Assets.xcassets */; };
+		ACC8650D233715A4006AE2DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC8650B233715A4006AE2DB /* LaunchScreen.storyboard */; };
+		ACC86518233715A5006AE2DB /* PaperfulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC86517233715A5006AE2DB /* PaperfulTests.swift */; };
+		ACC86523233715A5006AE2DB /* PaperfulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC86522233715A5006AE2DB /* PaperfulUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACC86514233715A5006AE2DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC864F5233715A1006AE2DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC864FC233715A1006AE2DB;
+			remoteInfo = Paperful;
+		};
+		ACC8651F233715A5006AE2DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACC864F5233715A1006AE2DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACC864FC233715A1006AE2DB;
+			remoteInfo = Paperful;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACC864FD233715A1006AE2DB /* Paperful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paperful.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC86500233715A1006AE2DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACC86502233715A1006AE2DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ACC86504233715A1006AE2DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACC86506233715A4006AE2DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC86509233715A4006AE2DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACC8650C233715A4006AE2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC8650E233715A4006AE2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC86513233715A5006AE2DB /* PaperfulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperfulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC86517233715A5006AE2DB /* PaperfulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperfulTests.swift; sourceTree = "<group>"; };
+		ACC86519233715A5006AE2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC8651E233715A5006AE2DB /* PaperfulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperfulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC86522233715A5006AE2DB /* PaperfulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperfulUITests.swift; sourceTree = "<group>"; };
+		ACC86524233715A5006AE2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC864FA233715A1006AE2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC86510233715A5006AE2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC8651B233715A5006AE2DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACC864F4233715A1006AE2DB = {
+			isa = PBXGroup;
+			children = (
+				ACC864FF233715A1006AE2DB /* Paperful */,
+				ACC86516233715A5006AE2DB /* PaperfulTests */,
+				ACC86521233715A5006AE2DB /* PaperfulUITests */,
+				ACC864FE233715A1006AE2DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC864FE233715A1006AE2DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC864FD233715A1006AE2DB /* Paperful.app */,
+				ACC86513233715A5006AE2DB /* PaperfulTests.xctest */,
+				ACC8651E233715A5006AE2DB /* PaperfulUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC864FF233715A1006AE2DB /* Paperful */ = {
+			isa = PBXGroup;
+			children = (
+				ACC86500233715A1006AE2DB /* AppDelegate.swift */,
+				ACC86502233715A1006AE2DB /* SceneDelegate.swift */,
+				ACC86504233715A1006AE2DB /* ContentView.swift */,
+				ACC86506233715A4006AE2DB /* Assets.xcassets */,
+				ACC8650B233715A4006AE2DB /* LaunchScreen.storyboard */,
+				ACC8650E233715A4006AE2DB /* Info.plist */,
+				ACC86508233715A4006AE2DB /* Preview Content */,
+			);
+			path = Paperful;
+			sourceTree = "<group>";
+		};
+		ACC86508233715A4006AE2DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACC86509233715A4006AE2DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACC86516233715A5006AE2DB /* PaperfulTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC86517233715A5006AE2DB /* PaperfulTests.swift */,
+				ACC86519233715A5006AE2DB /* Info.plist */,
+			);
+			path = PaperfulTests;
+			sourceTree = "<group>";
+		};
+		ACC86521233715A5006AE2DB /* PaperfulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACC86522233715A5006AE2DB /* PaperfulUITests.swift */,
+				ACC86524233715A5006AE2DB /* Info.plist */,
+			);
+			path = PaperfulUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC864FC233715A1006AE2DB /* Paperful */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC86527233715A5006AE2DB /* Build configuration list for PBXNativeTarget "Paperful" */;
+			buildPhases = (
+				ACC864F9233715A1006AE2DB /* Sources */,
+				ACC864FA233715A1006AE2DB /* Frameworks */,
+				ACC864FB233715A1006AE2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Paperful;
+			productName = Paperful;
+			productReference = ACC864FD233715A1006AE2DB /* Paperful.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACC86512233715A5006AE2DB /* PaperfulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC8652A233715A5006AE2DB /* Build configuration list for PBXNativeTarget "PaperfulTests" */;
+			buildPhases = (
+				ACC8650F233715A5006AE2DB /* Sources */,
+				ACC86510233715A5006AE2DB /* Frameworks */,
+				ACC86511233715A5006AE2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC86515233715A5006AE2DB /* PBXTargetDependency */,
+			);
+			name = PaperfulTests;
+			productName = PaperfulTests;
+			productReference = ACC86513233715A5006AE2DB /* PaperfulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACC8651D233715A5006AE2DB /* PaperfulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC8652D233715A5006AE2DB /* Build configuration list for PBXNativeTarget "PaperfulUITests" */;
+			buildPhases = (
+				ACC8651A233715A5006AE2DB /* Sources */,
+				ACC8651B233715A5006AE2DB /* Frameworks */,
+				ACC8651C233715A5006AE2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC86520233715A5006AE2DB /* PBXTargetDependency */,
+			);
+			name = PaperfulUITests;
+			productName = PaperfulUITests;
+			productReference = ACC8651E233715A5006AE2DB /* PaperfulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC864F5233715A1006AE2DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Marek Vavrusa";
+				TargetAttributes = {
+					ACC864FC233715A1006AE2DB = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					ACC86512233715A5006AE2DB = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = ACC864FC233715A1006AE2DB;
+					};
+					ACC8651D233715A5006AE2DB = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = ACC864FC233715A1006AE2DB;
+					};
+				};
+			};
+			buildConfigurationList = ACC864F8233715A1006AE2DB /* Build configuration list for PBXProject "Paperful" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACC864F4233715A1006AE2DB;
+			productRefGroup = ACC864FE233715A1006AE2DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC864FC233715A1006AE2DB /* Paperful */,
+				ACC86512233715A5006AE2DB /* PaperfulTests */,
+				ACC8651D233715A5006AE2DB /* PaperfulUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC864FB233715A1006AE2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC8650D233715A4006AE2DB /* LaunchScreen.storyboard in Resources */,
+				ACC8650A233715A4006AE2DB /* Preview Assets.xcassets in Resources */,
+				ACC86507233715A4006AE2DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC86511233715A5006AE2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC8651C233715A5006AE2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC864F9233715A1006AE2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC86501233715A1006AE2DB /* AppDelegate.swift in Sources */,
+				ACC86503233715A1006AE2DB /* SceneDelegate.swift in Sources */,
+				ACC86505233715A1006AE2DB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC8650F233715A5006AE2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC86518233715A5006AE2DB /* PaperfulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC8651A233715A5006AE2DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC86523233715A5006AE2DB /* PaperfulUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACC86515233715A5006AE2DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC864FC233715A1006AE2DB /* Paperful */;
+			targetProxy = ACC86514233715A5006AE2DB /* PBXContainerItemProxy */;
+		};
+		ACC86520233715A5006AE2DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACC864FC233715A1006AE2DB /* Paperful */;
+			targetProxy = ACC8651F233715A5006AE2DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACC8650B233715A4006AE2DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC8650C233715A4006AE2DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC86525233715A5006AE2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC86526233715A5006AE2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC86528233715A5006AE2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Paperful/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Paperful/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vavrusa.com.Paperful;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACC86529233715A5006AE2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Paperful/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Paperful/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vavrusa.com.Paperful;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACC8652B233715A5006AE2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaperfulTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vavrusa.com.PaperfulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paperful.app/Paperful";
+			};
+			name = Debug;
+		};
+		ACC8652C233715A5006AE2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaperfulTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vavrusa.com.PaperfulTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paperful.app/Paperful";
+			};
+			name = Release;
+		};
+		ACC8652E233715A5006AE2DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaperfulUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vavrusa.com.PaperfulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paperful;
+			};
+			name = Debug;
+		};
+		ACC8652F233715A5006AE2DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PaperfulUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vavrusa.com.PaperfulUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Paperful;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC864F8233715A1006AE2DB /* Build configuration list for PBXProject "Paperful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC86525233715A5006AE2DB /* Debug */,
+				ACC86526233715A5006AE2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC86527233715A5006AE2DB /* Build configuration list for PBXNativeTarget "Paperful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC86528233715A5006AE2DB /* Debug */,
+				ACC86529233715A5006AE2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC8652A233715A5006AE2DB /* Build configuration list for PBXNativeTarget "PaperfulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC8652B233715A5006AE2DB /* Debug */,
+				ACC8652C233715A5006AE2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC8652D233715A5006AE2DB /* Build configuration list for PBXNativeTarget "PaperfulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC8652E233715A5006AE2DB /* Debug */,
+				ACC8652F233715A5006AE2DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACC864F5233715A1006AE2DB /* Project object */;
+}

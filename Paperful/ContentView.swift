@@ -9,13 +9,41 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var viewModel: PaperListModel
+
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List {
+                SearchBar(searchText: $viewModel.searchTerm, onCommit: viewModel.onSearchTapped)
+                ForEach(viewModel.papers.indexed(), id: \.1.id) { index, paper in
+                    NavigationLink(destination: PaperDetail(paper: self.$viewModel.papers[index])) {
+                        PaperRow(paper: paper)
+                    }
+                }
+            }
+            .navigationBarTitle(Text("Search"))
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(PaperListModel())
+    }
+}
+
+
+struct SearchBar : View {
+    @Binding var searchText: String
+    var onCommit: () -> Void
+    
+    var body: some View {
+        HStack {
+            Image(systemName: "magnifyingglass").foregroundColor(.secondary)
+            TextField("Search",
+                text: $searchText,
+                onCommit: onCommit
+            )
+        }.padding(.horizontal)
     }
 }

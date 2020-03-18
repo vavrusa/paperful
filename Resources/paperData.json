@@ -1,0 +1,25 @@
+
+[
+    {
+        "id": 6726029,
+        "info": {
+            "title": "A Genetic Screen for Mutations That Affect Cranial Nerve Development in the Mouse",
+            "authors": [
+                {"name": "Mar L", "authtype": "Author"},
+                {"name": "Rivkin E", "authtype": "Author"}
+            ]
+        },
+        "category": "PubMed"
+    },
+    {
+        "id": 6662799,
+        "info": {
+            "title": "Anti-apoptotic effect of the Shh signaling pathway in cigarette smoke extract induced MLE 12 apoptosis",
+            "authors": [
+                {"name": "Li J", "authtype": "Author"},
+                {"name": "Zong D", "authtype": "Author"}
+            ]
+        },
+        "category": "PubMed"
+    }
+]
